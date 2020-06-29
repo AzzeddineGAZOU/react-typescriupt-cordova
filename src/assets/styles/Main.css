@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+body {
+    background: #e7e6eb;
+    color: #000;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.important{
+    font-weight: bold;
+    color: #1833ffff;
+}
+
+.alignLeft{
+    text-align: left;
+}
+
+.list {
+    border-bottom: 1px solid #cac9d0;
+}
+
+.container {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.flexRow {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.marginBetweenChildren > * {
+    margin: 0 8px;
+}
+
+.btn.big {
+    font-size: 20px;
+}
+
+.block {
+    display: block;
+    margin: 6px;
+}
+
+
+.logo {
+    width: 120px;
+}
+
+.passwordForgot {
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    background: #fff;
+}
+
+tr {
+    text-align: center;
+}
+
+td, th {
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+}
+
+
+select, input, textarea {
+    width: 100%;
+    padding: 2px;
+    margin: 5px 0;
+    display: block;
+    border: 2px solid #1833ffff;
+    border-radius: 3px;
+}
